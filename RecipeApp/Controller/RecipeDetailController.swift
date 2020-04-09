@@ -69,9 +69,7 @@ class RecipeDetailController: UIViewController {
         }
         steps = RealmManager.getStepsByRecipeId(recipe.id)
         steps.sort { $0.order < $1.order }
-       
         ingredients = RealmManager.getIngredientByRecipeId(recipe.id)
-        
         setupTableView()
     }
     

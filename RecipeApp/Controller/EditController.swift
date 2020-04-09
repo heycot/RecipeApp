@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PKHUD
 
 class EditController: UIViewController {
 
@@ -27,6 +28,7 @@ class EditController: UIViewController {
     }
 
     @IBAction func saveActionDidTap(_ sender: UIBarButtonItem) {
+        HUD.show(.progress)
         
         if isStep {
             RealmManager.updateStep(step, desc: textView.text, order: step.order) { (data) in
@@ -35,6 +37,7 @@ class EditController: UIViewController {
                 } else {
                     self.showErrorMessage()
                 }
+                HUD.hide()
             }
         } else {
             RealmManager.updateIngredient(ingredient, desc: textView.text) { (data) in
@@ -43,6 +46,7 @@ class EditController: UIViewController {
                 } else {
                     self.showErrorMessage()
                 }
+                HUD.hide()
             }
         }
     }
