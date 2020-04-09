@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <recipes>
+         <recipe id="1"
+             name="SPICY SHRIMP FRIED RICE"
+             desc="Spicy Shrimp Fried Rice made healthier using leftover cooked brown rice, a delicious whole grain that’s high in fiber, so it fills you up."
+             thumbnail="recipe1"
+             typeId="1">
+         </recipe>
+         <recipe id="2"
+             name="AIR FRYER FALAFEL"
+             desc="This easy Falafel recipe is made quicker and healthier in the air fryer with canned chickpeas – no deep frying!"
+             typeId="1"
+             thumbnail="recipe2">
+         </recipe>
+         <recipe id="3"
+             name="SWEET POTATO PIE"
+             desc="A healthy and delicious version of the classic sweet potato pie – a perfect, easy sweet potato dessert recipe for Thanksgiving!"
+             typeId="2"
+             thumbnail="recipe3">
+         </recipe>
+         <recipe id="4"
+             name="CRANBERRY PEAR SAUCE"
+             desc="An EASY 3-ingredient cranberry pear sauce! This is my go-to cranberry sauce recipe for the Holidays. I love how the sweet pears compliment the tart cranberries, perfect to add to your Thanksgiving table."
+             typeId="2"
+             thumbnail="recipe4">
+         </recipe>
+    </recipes>
+    <types>
+        <type id="1" name="Lunch" desc="Lunch's recipe"></type>
+        <type id="2" name="Dinner" desc="Dinner's recipe"></type>
+    </types>
+
+    <steps>
+        <step id="1" desc="In a bowl, season shrimp with cayenne pepper, chili powder, paprika, salt, pepper and garlic powder." order="1" recipeId="1"></step>
+        <step id="2" desc="In a hot wok, over medium high heat, spray a little oil and cook the eggs, when cooked, remove from pan and set aside, 1 to 2 minutes." order="2" recipeId="1"></step>
+        <step id="3" desc="Increase the heat to high, when hot add the sesame oil and saute onions, scallion whites, garlic and hot pepper flakes for about 1-2 minutes." order="3" recipeId="1"></step>
+
+        <step id="4" desc="Dry the chickpeas on paper towels" order="1" recipeId="2"></step>
+        <step id="5" desc="Place the onions and garlic in the bowl of a food processor fitted with a steel blade. Add the parsley, scallions, cilantro, cumin, salt, and red pepper flakes." order="2" recipeId="2"></step>
+        <step id="6" desc="Process until blended 30 to 60 seconds, then add the chickpeas and pulse 2 to 3 times until just blended, but not pureed." order="3" recipeId="2"></step>
+        <step id="7" desc="Boil sweet potato whole in skin for 50 to 55 minutes, or until soft. Run cold water over the sweet potato, and remove the skin. Blend potatoes in a blender and pulse for about one minute to remove all fibers" order="1" recipeId="3"></step>
+        <step id="8" desc="Place sweet potatoes in a bowl. Add butter, and mix well. Using an electric mixer, mix in sugar, milk, eggs, cinnamon and vanilla. Beat on medium speed until mixture is smooth. Pour filling into an unbaked pie crust" order="2" recipeId="3"></step>
+        <step id="9" desc="Bake at 350 degrees for 55 to 60 minutes, or until knife inserted in center comes out clean. Serve with cool whip and enjoy!" order="3" recipeId="3"></step>
+        <step id="10" desc="Bring all the ingredients to a boil on high heat in a medium saucepan." order="1" recipeId="4"></step>
+        <step id="11" desc="hen boiling, reduce heat and simmer for about 15 minutes, or until the cranberries burst and the sauce thickens. Remove from heat and let it cool before refrigerating. Serve chilled or room temperature. Makes 3 1/4 cups." order="2" recipeId="4"></step>
+    </steps>
+    <ingredients>
+        <ingredient id="1" desc="3 cups leftover brown rice cooked" recipeId="1"></ingredient>
+        <ingredient id="2" desc="1 lb large shrimp, peeled and deveined" recipeId="1"></ingredient>
+        <ingredient id="3" desc="1/2 tsp each of chili powder and paprika" recipeId="1"></ingredient>
+        <ingredient id="4" desc="1 can chickpeas, rinsed and drained" recipeId="2"></ingredient>
+        <ingredient id="5" desc="1 small yellow onion, quartered" recipeId="2"></ingredient>
+        <ingredient id="6" desc="3 cloves garlic, roughly chopped" recipeId="2"></ingredient>
+        <ingredient id="7" desc="1-1/2 lbs sweet potatoes" recipeId="3"></ingredient>
+        <ingredient id="8" desc="2 tbsp light butter, softened" recipeId="3"></ingredient>
+        <ingredient id="9" desc="3/4 cup light brown sugar, not packed" recipeId="3"></ingredient>
+        <ingredient id="10" desc="12 oz fresh or frozen cranberries" recipeId="4"></ingredient>
+        <ingredient id="11" desc="2 ripe pears, peeled and cored, cubed small" recipeId="4"></ingredient>
+        <ingredient id="12" desc="1/2 cup honey or agave and 1 cup water" recipeId="4"></ingredient>
+    </ingredients>
+    
+</data>
+

@@ -1,0 +1,50 @@
+PODS:
+  - AEXML (4.5.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - PKHUD (5.3.0)
+  - PryntTrimmerView (4.0.0)
+  - Realm (4.4.0):
+    - Realm/Headers (= 4.4.0)
+  - Realm/Headers (4.4.0)
+  - RealmSwift (4.4.0):
+    - Realm (= 4.4.0)
+  - SteviaLayout (4.7.3)
+  - SwiftyXMLParser (5.0.0)
+  - YPImagePicker (4.2.0):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.7.3)
+
+DEPENDENCIES:
+  - AEXML
+  - IQKeyboardManagerSwift
+  - PKHUD
+  - RealmSwift
+  - SwiftyXMLParser
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - AEXML
+    - IQKeyboardManagerSwift
+    - PKHUD
+    - PryntTrimmerView
+    - Realm
+    - RealmSwift
+    - SteviaLayout
+    - SwiftyXMLParser
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  AEXML: 0e8f1d874fa033ca6b3909452a8bc362faad46e6
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  Realm: e125f464884cda953ebefe70c671b75b03b81b9b
+  RealmSwift: 33656a42bd300959a081fc13347376bc478071af
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwiftyXMLParser: 5ebb8793192f403fa8cc691045143906122a7a75
+  YPImagePicker: accf310f9526641a84372c0ecf943547d9b1e52c
+
+PODFILE CHECKSUM: 9aa693e42fc95f9c1e3fb3f06fb1213f3d6b4fcd
+
+COCOAPODS: 1.9.1
