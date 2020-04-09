@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PKHUD
 import YPImagePicker
 
 class RecipeDetailController: UIViewController {
@@ -64,6 +65,7 @@ class RecipeDetailController: UIViewController {
     }
     
     func getNewestDataFromLocal() {
+        HUD.show(.progress)
         if let data = RealmManager.getRecipeById(recipe.id) {
             recipe = data
         }
@@ -71,6 +73,7 @@ class RecipeDetailController: UIViewController {
         steps.sort { $0.order < $1.order }
         ingredients = RealmManager.getIngredientByRecipeId(recipe.id)
         setupTableView()
+        HUD.hide()
     }
     
     func setupTableView() {
